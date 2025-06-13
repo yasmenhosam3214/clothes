@@ -1,0 +1,51 @@
+name: clothes
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  fluttertoast: ^8.2.10
+  http: ^1.2.2
+  firebase_auth: ^5.4.0
+  firebase_core: ^3.10.0
+  image_picker: ^1.0.4
+  firebase_database: ^11.3.2
+  multi_select_flutter: ^4.1.3
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fashion.png
+    - assets/xs.png
+    - assets/buy.png
+    - assets/sell.png
+    - assets/man.png
+    - assets/rent.png
+    - assets/signuop.png
+    - assets/login.png
+    - assets/t.gif
+    - assets/setus.gif
+    - assets/img.gif
+    - assets/shop.gif
+    - assets/store.gif
+    - assets/evo.gif
+    - assets/but.png
+    - assets/samples.png
+
+  fonts:
+    - family: f
+      fonts:
+        - asset: assets/f.otf
